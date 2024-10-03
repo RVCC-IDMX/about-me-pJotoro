@@ -1,12 +1,45 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: orange;
-    color: blue;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:50pt;
-}
 header {
-    text-align:center;
+    font-family: 'Bungee Spice';
+    text-align: center;
+}
+
+main, footer {
+    font-family: 'Albert Sans';
+}
+
+/*
+Color scheme:
+
+00DBAB
+D9A602
+0293D9
+D97802
+2D6884
+245C50
+*/
+
+h1 {
+    color: #00DBAB;
+}
+
+h2 {
+    color: #2D6884;
+    font-style: italic;
+}
+
+p {
+    color: #0293D9;
+}
+
+li {
+    color: #D97802;
+}
+
+footer {
+    color: #245C50;
+}
+
+.personal_info {
+    text-align: center;
+    font-weight: bold;
 }
