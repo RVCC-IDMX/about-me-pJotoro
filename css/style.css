@@ -27,10 +27,6 @@ h2 {
     font-style: italic;
 }
 
-p {
-    color: #0293D9;
-}
-
 li {
     color: #D97802;
 }
@@ -58,11 +54,12 @@ footer {
     padding: 0;
     margin: 0;
     font-size: 40px;
+    margin-bottom: 2rem;
 }
 
 #photo1 {
     background-color: #00DBAB;
-    border: #245C50;
+    border: solid #245C50;
     padding: 20px;
     margin: 20px;
     border-width: 20px;
@@ -70,7 +67,7 @@ footer {
 
 #photo2 {
     background-color: #0293D9;
-    border: #2D6884;
+    border: solid #2D6884;
     padding: 20px;
     margin: 20px;
     border-width: 20px;
@@ -78,8 +75,25 @@ footer {
 
 #photo3 {
     background-color: #D97802;
-    border: black;
+    border: solid black;
     padding: 20px;
     margin: 20px;
     border-width: 20px;
+}
+
+#lorem-ipsem {
+    border: 2px solid #2D6884;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0.3rem 2rem;
+}
+
+#lorem-ipsem p:first-child:first-letter {
+    color:#D97802;
+    float:left;
+    font-size:3rem;
+    padding:1rem;
+    margin-right:1rem;
+    line-height:1rem;
+    border: 0.15rem solid black;
 }
