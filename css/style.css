@@ -53,3 +53,33 @@ footer {
     background-color: #245C50;
     opacity: 0.8;
 }
+
+#photo-gallery {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+#photo1 {
+    background-color: #00DBAB;
+    border: #245C50;
+    padding: 20px;
+    margin: 20px;
+    border-width: 20px;
+}
+
+#photo2 {
+    background-color: #0293D9;
+    border: #2D6884;
+    padding: 20px;
+    margin: 20px;
+    border-width: 20px;
+}
+
+#photo3 {
+    background-color: #D97802;
+    border: black;
+    padding: 20px;
+    margin: 20px;
+    border-width: 20px;
+}
