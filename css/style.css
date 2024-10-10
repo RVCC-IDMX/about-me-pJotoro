@@ -39,7 +39,17 @@ footer {
     color: #245C50;
 }
 
-.personal_info {
+#personal_info {
     text-align: center;
     font-weight: bold;
+}
+
+#hobbies h2 {
+    color: #00DBAB;
+    background-color: #245C50;
+}
+
+#hobbies ul {
+    background-color: #245C50;
+    opacity: 0.8;
 }
