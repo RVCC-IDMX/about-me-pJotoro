@@ -25,6 +25,7 @@ h1 {
 h2 {
     color: #2D6884;
     font-style: italic;
+    margin: 0.05rem;
 }
 
 li {
@@ -38,6 +39,16 @@ footer {
 #personal_info {
     text-align: center;
     font-weight: bold;
+    border: 0.5rem solid #00DBAB;
+    border-radius: 0.5rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+}
+
+#hobbies {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }
 
 #hobbies h2 {
@@ -54,31 +65,43 @@ footer {
     padding: 0;
     margin: 0;
     font-size: 40px;
-    margin-bottom: 2rem;
+    text-align: center;
 }
 
 #photo1 {
     background-color: #00DBAB;
     border: solid #245C50;
     padding: 20px;
-    margin: 20px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     border-width: 20px;
+    text-align: center;
 }
 
 #photo2 {
     background-color: #0293D9;
     border: solid #2D6884;
     padding: 20px;
-    margin: 20px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     border-width: 20px;
+    text-align: center;
 }
 
 #photo3 {
     background-color: #D97802;
     border: solid black;
     padding: 20px;
-    margin: 20px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     border-width: 20px;
+    text-align: center;
 }
 
 #lorem-ipsem {
@@ -96,4 +119,39 @@ footer {
     margin-right:1rem;
     line-height:1rem;
     border: 0.15rem solid black;
+}
+
+/* video */
+
+#video {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#videoContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 56.25%;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#copyright {
+    border: 0.25rem solid #00DBAB;
+    border-radius: 0.25rem;
+    margin-right: 108rem;
 }
