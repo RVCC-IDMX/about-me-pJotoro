@@ -64,48 +64,48 @@ footer {
 #photo-gallery {
     padding: 0;
     margin: 0;
-    font-size: 40px;
+    font-size: 2rem;
     text-align: center;
 }
 
 #photo1 {
     background-color: #00DBAB;
     border: solid #245C50;
-    padding: 20px;
+    padding: 1rem;
     margin-left: 15rem;
     margin-right: 15rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    border-width: 20px;
+    border-width: 1rem;
     text-align: center;
 }
 
 #photo2 {
     background-color: #0293D9;
     border: solid #2D6884;
-    padding: 20px;
+    padding: 1rem;
     margin-left: 15rem;
     margin-right: 15rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    border-width: 20px;
+    border-width: 1rem;
     text-align: center;
 }
 
 #photo3 {
     background-color: #D97802;
     border: solid black;
-    padding: 20px;
+    padding: 1rem;
     margin-left: 15rem;
     margin-right: 15rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    border-width: 20px;
+    border-width: 1rem;
     text-align: center;
 }
 
 #lorem-ipsem {
-    border: 2px solid #2D6884;
+    border: 0.2rem solid #2D6884;
     max-width: 50rem;
     margin: 0 auto;
     padding: 0.3rem 2rem;
@@ -154,4 +154,19 @@ footer {
     border: 0.25rem solid #00DBAB;
     border-radius: 0.25rem;
     margin-right: 108rem;
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
 }
