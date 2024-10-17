@@ -72,10 +72,10 @@ footer {
     background-color: #00DBAB;
     border: solid #245C50;
     padding: 1rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-width: 1rem;
     text-align: center;
 }
@@ -84,10 +84,10 @@ footer {
     background-color: #0293D9;
     border: solid #2D6884;
     padding: 1rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-width: 1rem;
     text-align: center;
 }
@@ -96,10 +96,10 @@ footer {
     background-color: #D97802;
     border: solid black;
     padding: 1rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-width: 1rem;
     text-align: center;
 }
@@ -161,12 +161,25 @@ footer {
         display:grid;
         grid-template-columns: 2fr 1fr;
     }
-
+    
     figcaption {
         display:flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
+    }
+
+    #lorem-ipsem {
+        max-width:100%;
+        columns: 40rem;
+    }
+}
+
+@media screen and (min-width: 100em) {
+    #photo-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 1 / -1;
     }
 }
