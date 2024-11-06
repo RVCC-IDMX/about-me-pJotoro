@@ -62,45 +62,14 @@ footer {
 }
 
 #photo-gallery {
-    padding: 0;
-    margin: 0;
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 0.5rem;
 }
 
-#photo1 {
+.photo {
     background-color: #00DBAB;
     border: solid #245C50;
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-width: 1rem;
-    text-align: center;
-}
-
-#photo2 {
-    background-color: #0293D9;
-    border: solid #2D6884;
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-width: 1rem;
-    text-align: center;
-}
-
-#photo3 {
-    background-color: #D97802;
-    border: solid black;
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-width: 1rem;
     text-align: center;
 }
 
@@ -126,8 +95,8 @@ footer {
 #video {
     margin-left: 10rem;
     margin-right: 10rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -167,7 +136,7 @@ footer {
         justify-content: center;
         align-items: center;
         font-size: 2rem;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
 
     #lorem-ipsem {
@@ -180,6 +149,17 @@ footer {
     #photo-gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column: 1 / -1;
+    }
+    #photo-gallery hr {
+        display:none;
+    }
+    #photo-gallery h2 {
+        grid-column:1/-1;
+    }
+    #photo-gallery img {
+        max-width:100%;
+    }
+    #photo-gallery figure {
+        margin:0px;
     }
 }
