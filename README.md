@@ -13,12 +13,13 @@ On top of that, you can't make a website like this without learning certain skil
 - How to generate lorem ipsum text. This is a very important skill that heavily applies in many domains.
 
 ## Color Scheme
-`#00DBAB`
-`#D9A602`
-`#0293D9`
-`#D97802`
-`#2D6884`
-`#245C50`
+
+<span style="color: #00DBAB;">green</span><br>
+<span style="color: #D9A602;">yellow</span><br>
+<span style="color: #0293D9;">blue</span><br>
+<span style="color: #D97802;">orange</span><br>
+<span style="color: #2D6884;">dark blue</span><br>
+<span style="color: #245C50;">dark green</span>
 
 These colors have been specially selected to be clearly distinguishable for people with all types of color blindness. Beyond that, they also look pretty good in my opinion, even though I am not color blind.
 
