@@ -79,14 +79,14 @@ footer {
     max-width: 70%;
 }
 
-#lorem-ipsem {
+#blog {
     border: 0.2rem solid #2D6884;
     max-width: 50rem;
     margin: 0 auto;
     padding: 0.3rem 2rem;
 }
 
-#lorem-ipsem p:first-child:first-letter {
+#blog p:first-child:first-letter {
     color:#D97802;
     float:left;
     font-size:3rem;
@@ -110,7 +110,7 @@ footer {
         margin-left: 0.5rem;
     }
 
-    #lorem-ipsem {
+    #blog {
         max-width:100%;
         columns: 40rem;
     }
