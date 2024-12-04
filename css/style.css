@@ -188,3 +188,7 @@ footer {
     font-size: 2rem;
     font-family: 'Bungee Spice';
 }
+
+.logo img {
+    margin-right: 0.5rem;
+}
