@@ -1,12 +1,3 @@
-header {
-    font-family: 'Bungee Spice';
-    text-align: center;
-}
-
-main, footer {
-    font-family: 'Albert Sans';
-}
-
 /*
 Color scheme:
 
@@ -17,6 +8,16 @@ D97802
 2D6884
 245C50
 */
+
+/*
+===================================
+===== Used in multiple places =====
+===================================
+*/
+
+main, footer {
+    font-family: 'Albert Sans';
+}
 
 h1 {
     color: #00DBAB;
@@ -32,9 +33,26 @@ li {
     color: #D97802;
 }
 
-footer {
-    color: #245C50;
+/*
+=============================================================
+===== Header (not a lot to see here because of nav.css) =====
+=============================================================
+*/
+
+header {
+    font-family: 'Bungee Spice';
+    text-align: center;
 }
+
+.logo img {
+    margin-right: 0.5rem;
+}
+
+/*
+=======================
+===== Bio/hobbies =====
+=======================
+*/
 
 #personal_info {
     text-align: center;
@@ -63,7 +81,13 @@ footer {
     opacity: 0.8;
 }
 
-#photo-gallery {
+/*
+===================
+===== Gallery =====
+===================
+*/
+
+#gallery {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 0.5rem;
@@ -79,14 +103,20 @@ footer {
     max-width: 70%;
 }
 
-#blog {
+/*
+================
+===== Blog =====
+================
+*/
+
+#lit {
     border: 0.2rem solid #2D6884;
     max-width: 50rem;
     margin: 0 auto;
     padding: 0.3rem 2rem;
 }
 
-#blog p:first-child:first-letter {
+#lit p:first-child:first-letter {
     color:#D97802;
     float:left;
     font-size:3rem;
@@ -96,78 +126,11 @@ footer {
     border: 0.15rem solid black;
 }
 
-@media screen and (min-width: 60em) {
-    figure {
-        display:grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    
-    figcaption {
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        margin-left: 0.5rem;
-    }
-
-    #blog {
-        max-width:100%;
-        columns: 40rem;
-    }
-}
-
-@media screen and (min-width: 100em) {
-    #personal_info img {
-        margin-left: 35rem;
-        margin-right: 35rem;
-    }
-
-    #photo-gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    #photo-gallery hr {
-        display:none;
-    }
-    #photo-gallery h2 {
-        grid-column:1/-1;
-    }
-    #photo-gallery img {
-        max-width:100%;
-    }
-    #photo-gallery figure {
-        margin:0px;
-    }
-
-    #copyright {
-        border: 0.25rem solid #00DBAB;
-        border-radius: 0.25rem;
-        margin-right: 108rem;
-        margin-top: 1rem;
-    }
-
-    /* video */
-
-    #video {
-        margin-left: 10rem;
-        margin-right: 10rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-
-    #myVideo {
-        display: block;
-        width: 100rem;
-        height: auto;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        aspect-ratio: 16 / 9;
-    }
-}
-
-/* Forms */
+/*
+=================
+===== Forms =====
+=================
+*/
 
 #formElements {
     display: grid;
@@ -189,6 +152,99 @@ footer {
     font-family: 'Bungee Spice';
 }
 
-.logo img {
-    margin-right: 0.5rem;
+/*
+==================
+===== Footer =====
+==================
+*/
+
+footer {
+    color: #245C50;
+}
+
+/*
+========================
+===== Media states =====
+========================
+*/
+
+@media screen and (min-width: 60em) {
+    /* Gallery */
+
+    figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    figcaption {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    /* Blog */
+
+    #lit {
+        max-width:100%;
+        columns: 40rem;
+    }
+}
+
+@media screen and (min-width: 100em) {
+    /* Bio */
+
+    #personal_info img {
+        margin-left: 35rem;
+        margin-right: 35rem;
+    }
+
+    /* Gallery */
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gallery hr {
+        display:none;
+    }
+    #gallery h2 {
+        grid-column:1/-1;
+    }
+    #gallery img {
+        max-width:100%;
+    }
+    #gallery figure {
+        margin:0px;
+    }
+
+    /* Video */
+
+    #video {
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    #my_video {
+        display: block;
+        width: 100rem;
+        height: auto;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    /* Footer */
+
+    #copyright {
+        border: 0.25rem solid #00DBAB;
+        border-radius: 0.25rem;
+        margin-right: 108rem;
+        margin-top: 1rem;
+    }
 }

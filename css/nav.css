@@ -23,17 +23,6 @@ main {
 
 /* navbar */
 
-/*
-Color scheme:
-
-00DBAB
-D9A602
-0293D9
-D97802
-2D6884
-245C50
-*/
-
 .navbar {
     background-color: #245C50;
     display: flex;
