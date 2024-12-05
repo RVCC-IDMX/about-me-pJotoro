@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/nav.css">
 
     <link rel="icon" type="image/png" href="img/android-icon-192x192.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -33,6 +35,19 @@
                     <li><a href="#contact" class="nav-links">Contact Me</a></li>
                 </ul>
             </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("nav-links");
+                    if (x.style.display === "flex") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "flex";
+                    }
+                } 
+            </script>
+            <a href="javascript:void(0);" class="nav-links" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </header>
 
