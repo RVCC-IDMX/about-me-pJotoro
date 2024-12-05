@@ -25,9 +25,9 @@ These colors have been specially selected to be clearly distinguishable for peop
 
 ## Citations
 
-<a href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bungee+Spice&display=swap">Fonts used: Albert Sans and Bungee Spice.</a>
-<a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade">Blog article citation 1.</a>
-<a href="https://webdesign.tutsplus.com/how-to-create-different-css-hover-effects-from-scratch--cms-34222t">Blog article citation 2.</a>
+<a href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bungee+Spice&display=swap">Fonts used: Albert Sans and Bungee Spice.</a><br>
+<a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade">Blog article citation 1.</a><br>
+<a href="https://webdesign.tutsplus.com/how-to-create-different-css-hover-effects-from-scratch--cms-34222t">Blog article citation 2.</a><br>
 <a href="https://fooplugins.com/thumbnail-hover-effect/">Blog article citation 3.</a>
 
 ## MIT License
